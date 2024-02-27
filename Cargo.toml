@@ -1,0 +1,15 @@
+[package]
+name = "llama-rust"
+version = "0.1.0"
+edition = "2021"
+
+[build-dependencies]
+cc = "1.0"
+bindgen = "0.69.4"
+
+[lib]
+path = "src/lib.rs" # Specify the path to the library code
+
+# [[bin]]
+# name = "llama-rust"
+# path = "src/main.rs" # Specify the path to the executable code
